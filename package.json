@@ -33,7 +33,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/growthops-digital/lib-nextjs.git"
+		"url": "git+https://github.com/growthops-digital/ext-nextjs.git"
 	},
 	"peerDependencies": {
 		"react": "^17.0.2",
