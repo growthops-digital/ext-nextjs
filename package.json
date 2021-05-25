@@ -5,7 +5,8 @@
 	"main": "./lib/index.js",
 	"license": "MIT",
 	"exports": {
-		".": "./lib/index.js"
+		".": "./lib/index.js",
+		"./ProgressBar": "./lib/progress-bar.js"
 	},
 	"scripts": {
 		"build": "npx babel src --out-dir lib",
@@ -37,7 +38,8 @@
 	"peerDependencies": {
 		"react": "^17.0.2",
 		"prop-types": "^15.7.2",
-		"next": "^10.2.0"
+		"next": "^10.2.0",
+		"nprogress": "^0.2.0"
 	},
 	"devDependencies": {
 		"@babel/cli": "^7.14.3",
