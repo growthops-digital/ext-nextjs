@@ -1,6 +1,6 @@
 {
 	"name": "@growthops/ext-nextjs",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "Next.js library for the GO Digital modern stack",
 	"main": "./lib/index.js",
 	"license": "MIT",
