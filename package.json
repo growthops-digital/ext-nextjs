@@ -6,6 +6,7 @@
 	"license": "MIT",
 	"exports": {
 		"./components": "./lib/components/index.js",
+		"./utils": "./lib/utils/index.js"
 	},
 	"scripts": {
 		"build": "npx babel src --out-dir lib",

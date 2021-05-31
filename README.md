@@ -52,3 +52,40 @@ class MyApp extends App {
 	}
 }
 ```
+
+## Utils
+
+### previewModeEnable / previewModeDisable
+Next.js preview mode API route helpers.
+
+**Example**
+```js
+// <project>/pages/api/preview-mode/enable.js
+
+import {previewModeEnable} from '@growthops/ext-nextjs/utils';
+
+export default function preview(request, response) {
+	return previewModeEnable(request, response, process.env.PREVIEW_MODE_SECRET);
+}
+
+// <project>/pages/api/preview-mode/disable.js
+
+import {previewModeDisable} from '@growthops/ext-nextjs/utils';
+
+export default function preview(request, response) {
+	return previewModeDisable(response);
+}
+```
+
+An optional `redirectTo` argument can be passed to either function as the last argument to customise the redirect path.
+
+**Example**
+```js
+// <project>/pages/api/preview-mode/enable.js
+
+import {previewModeEnable} from '@growthops/ext-nextjs/utils';
+
+export default function preview(request, response) {
+	return previewModeEnable(request, response, process.env.PREVIEW_MODE_SECRET, '/home');
+}
+```
