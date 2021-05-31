@@ -5,7 +5,7 @@ A collection of useful components, helpers, and extensions for Next.js projects.
 ## Components
 
 ### ProgressBar
-Providers a wrapper around the `nprogress` package.
+Provides a wrapper around the `nprogress` package.
 
 **Example usage**
 ```js
@@ -22,6 +22,31 @@ class MyApp extends App {
 		return (
 			<ProgressBar>
 				<Component {...pageProps}/>
+			</ProgressBar>
+		);
+	}
+}
+```
+
+### PreviewMode
+A small floating "preview mode" component.
+
+**Example usage**
+```js
+// _app.js
+
+import React from 'react';
+import App from 'next/app.js';
+import {ProgressBar, PreviewMode} from '@growthops/ext-nextjs';
+
+class MyApp extends App {
+	render() {
+		const {Component, pageProps} = this.props;
+
+		return (
+			<ProgressBar>
+				<Component {...pageProps}/>
+				<PreviewMode disableUrl="/api/preview-mode/disable"/>
 			</ProgressBar>
 		);
 	}

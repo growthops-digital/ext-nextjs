@@ -6,7 +6,8 @@
 	"license": "MIT",
 	"exports": {
 		".": "./lib/index.js",
-		"./ProgressBar": "./lib/progress-bar.js"
+		"./ProgressBar": "./lib/progress-bar.js",
+		"./PreviewMode": "./lib/preview-mode.js"
 	},
 	"scripts": {
 		"build": "npx babel src --out-dir lib",
