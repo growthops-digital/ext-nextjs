@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/growthops-digital/ext-nextjs/compare/v1.1.0...v1.1.1) (2021-05-31)
+
+
+### Bug Fixes
+
+* **PreviewMode:** avoid newlines and tabs in final transpiled string ([6aa391c](https://github.com/growthops-digital/ext-nextjs/commit/6aa391c2a8ff459b538aa95f2e2393cac4154098))
+
 ## [1.1.0](https://github.com/growthops-digital/ext-nextjs/compare/v1.0.0...v1.1.0) (2021-05-31)
 
 
