@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/growthops-digital/ext-nextjs/compare/v1.1.1...v2.0.0) (2021-05-31)
+
+
+### ⚠ BREAKING CHANGES
+
+* create a dedicated components export
+
+### Features
+
+* add preview mode enable and disable API utilities ([ecbc11e](https://github.com/growthops-digital/ext-nextjs/commit/ecbc11e1aa3ccc4ae802b7c103c84f3f47a4d93e))
+* create a dedicated components export ([64fa424](https://github.com/growthops-digital/ext-nextjs/commit/64fa4241edec55e3e3fac9fc252f04ad90710f6c))
+
 ### [1.1.1](https://github.com/growthops-digital/ext-nextjs/compare/v1.1.0...v1.1.1) (2021-05-31)
 
 
