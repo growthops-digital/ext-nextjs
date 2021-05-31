@@ -5,9 +5,7 @@
 	"main": "./lib/index.js",
 	"license": "MIT",
 	"exports": {
-		".": "./lib/index.js",
-		"./ProgressBar": "./lib/progress-bar.js",
-		"./PreviewMode": "./lib/preview-mode.js"
+		"./components": "./lib/components/index.js",
 	},
 	"scripts": {
 		"build": "npx babel src --out-dir lib",
