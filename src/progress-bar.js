@@ -28,7 +28,7 @@ const ProgressBar = ({children}) => {
 };
 
 ProgressBar.propTypes = {
-	children: PropTypes.element
+	children: PropTypes.node
 };
 
 export {
