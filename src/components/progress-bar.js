@@ -17,7 +17,7 @@ const disableProgressBar = () => NProgress.done();
 const ProgressBar = ({children}) => {
 	const contextData = useMemo(() => ({
 		enableProgressBar,
-		disableProgressBar
+		disableProgressBar,
 	}), []);
 
 	return (
@@ -28,11 +28,11 @@ const ProgressBar = ({children}) => {
 };
 
 ProgressBar.propTypes = {
-	children: PropTypes.node
+	children: PropTypes.node,
 };
 
 export {
-	useProgressBar
+	useProgressBar,
 };
 
 export default ProgressBar;

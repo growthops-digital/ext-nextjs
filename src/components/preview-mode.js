@@ -22,7 +22,7 @@ const PreviewMode = ({disableUrl}) => {
 };
 
 PreviewMode.propTypes = {
-	disableUrl: PropTypes.string.isRequired
+	disableUrl: PropTypes.string.isRequired,
 };
 
 export default PreviewMode;
